@@ -1,0 +1,8 @@
+ex004 = input()
+print('Qual é o tipo primitvo desse valor?', type(ex004))
+print('É alfanumérico?', ex004.isalnum())
+print('É alfabético?', ex004.isalpha())
+print('É numérico?', ex004.isnumeric())
+print('Só tem espaço?', ex004.isspace())
+print('Está em maiúsculas?', ex004.islower())
+print('Está em minúsculas?', ex004.isupper())
